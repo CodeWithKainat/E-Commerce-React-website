@@ -32,7 +32,7 @@ export default function Products() {
         ) : (
           <div className="row mt-4">
             {data.map((val, key) => (
-              <div className="col-6 col-lg-4 my-5"  data-aos="fade-up" key={key}>
+              <div className="col-6 col-lg-4 my-3"  data-aos="fade-up" key={key}>
                 <Link className='text-decoration-none' to={`/products/${val.id}`}>
                   <Card>
                     <Card.Img variant="top" className='imgsize ' src={val.thumbnail} />

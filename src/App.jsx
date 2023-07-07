@@ -8,7 +8,6 @@ import NavigationBar from './Components/NavigationBar'
 import FooterSection from './Components/FooterSection'
 import CategoryPage from './pages/CategoryPage'
 import ProductPage from './pages/ProductPage'
-
 export default function App() {
 
   return (

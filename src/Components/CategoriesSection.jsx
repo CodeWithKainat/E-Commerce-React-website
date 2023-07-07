@@ -23,7 +23,7 @@ export default function CategoriesSection() {
   return (
     
     <div className="container">
-      <div className="my-5 text-center" data-aos="fade-up" >
+      <div className="my-4 text-center" data-aos="fade-up" >
         <img className='catimg' src="https://www.onlinehaendler-news.de/images/2018/04/shutterstock_382783252.jpg" alt="" />
         <h1 className=' catheading mt-4'>CATEGORIES</h1>
         <p className='catpara'> Discover a world of endless possibilities at our shopping website. From stylish fashion trends to innovative electronics, we have everything you need to stay ahead of the curve.So start exploring now and make every purchase a delightful experience.</p>
