@@ -103,7 +103,7 @@ export default function ProductPage() {
                     <div className="container">
                         <div className='mb-5'>
                             <h2 className="text-center">Reviews Us</h2>
-                            <p className="text-center text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, sed.</p>
+                            <p className="text-center text-secondary">Rating and reviews of produt.</p>
                         </div>
 
 

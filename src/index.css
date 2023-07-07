@@ -7,7 +7,7 @@ body{
 }
 
 .imgsize,.card img{
-    height: 250px;
+    height: 150px;
 }
 .card-body,.card{
     min-height: 100px;
@@ -117,3 +117,10 @@ body{
     margin-top: 15px;
     display: block;
 }
+
+
+
+
+
+
+
