@@ -17,7 +17,7 @@ export default function CategoryPage() {
       .get(`https://dummyjson.com/products/category/${categoryName}`)
       .then((json) => setProducts(json.data.products))
       .finally(() => setIsLoading(false));
-  }, [categoryName]);
+    }, [categoryName]);
 
   useEffect(() => {
     AOS.init({ duration: 2000 });
@@ -26,8 +26,8 @@ export default function CategoryPage() {
   return (
     <div className="container">
       <div className="my-5 text-center">
-        <h1 className='Category-heading'>{categoryName.toUpperCase()}</h1>
-        <p className="category-para">
+        <h1 className='Category-heading'data-aos="flip-left">{categoryName.toUpperCase()}</h1>
+        <p className="category-para" data-aos="flip-left">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, officia nihil! Nemo sunt reprehenderit
           voluptates amet itaque libero in unde, molestias illo veniam, dolore veritatis eaque ipsum. Molestiae, nam
           architecto!

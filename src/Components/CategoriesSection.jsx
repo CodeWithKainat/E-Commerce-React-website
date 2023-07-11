@@ -22,16 +22,17 @@ export default function CategoriesSection() {
 
   return (
     
-    <div className="container">
-      <div className="my-4 text-center" data-aos="fade-up" >
-        <img className='catimg' src="https://www.onlinehaendler-news.de/images/2018/04/shutterstock_382783252.jpg" alt="" />
-        <h1 className=' catheading mt-4'>CATEGORIES</h1>
-        <p className='catpara'> Discover a world of endless possibilities at our shopping website. From stylish fashion trends to innovative electronics, we have everything you need to stay ahead of the curve.So start exploring now and make every purchase a delightful experience.</p>
+    <div className="w-100">
+      <div className="m-0 text-center" data-aos="zoom-in" >
+        <img className='m-0 catimg' src="https://wallpaperaccess.com/full/3166656.jpg" alt="" />
+        <h1 className='m-0 catheading mt-4'data-aos="flip-left">CATEGORIES</h1>
+        <p className='catpara'data-aos="zoom-in"> Discover a world of endless possibilities at our shopping website. From stylish fashion trends to innovative electronics, we have everything you need to stay ahead of the curve.So start exploring now and make every purchase a delightful experience.</p>
       </div>
   
       {isLoading === true ? (
         <Loader />
       ) : (
+        <div className="container">
         <div className="row">
           {categories.map((val, key) => (
             <div className="col-md-4 my-3" data-aos="fade-up" key={key}>
@@ -45,6 +46,7 @@ export default function CategoriesSection() {
               </Link>
             </div>
           ))}
+        </div>
         </div>
       )}
     </div>
