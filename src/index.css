@@ -161,9 +161,9 @@ body{
   .sideBar{
     display: none;
   }
-  .w-100,.col-10{
+.sideBar,.col-10{
     width: 100% !important;
-    height: 31vh;
+    height: 33vh;
   }
   .navibar {
     font-size: 18px !important;
